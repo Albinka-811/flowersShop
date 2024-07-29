@@ -1,4 +1,5 @@
 @import "variadles.scss";
+@import "/src/components/header.scss";
 
 * {
   box-sizing: border-box;
@@ -14,6 +15,5 @@ button {
 }
 
 body {
-  width: 1440px;
   background-color: black;
 }
