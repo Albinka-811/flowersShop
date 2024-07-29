@@ -1,0 +1,19 @@
+@import "variadles.scss";
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+body {
+  width: 1440px;
+  background-color: black;
+}
