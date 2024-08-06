@@ -12,35 +12,67 @@
     <title>FlowersShop</title>
 </head>
 <body>
-<header class="header">
-    <div class="header-info">
-        <img src="./src/assets/icons/logo.svg" class="header-info__logo" alt="логотип магазина">
-        <span class="header-info__name">flowerlower</span>
-    </div>
-    <nav class="header-nav">
-        <ul class="header-nav-list">
-            <li class="header-nav-list-items">
-                <a class="header-nav-list-items__link" href="#">Головна</a>
-            </li>
-            <li class="header-nav-list-items">
-                <a class="header-nav-list-items__link" href="#">Каталог</a>
-            </li>
-            <li class="header-nav-list-items">
-                <a class="header-nav-list-items__link" href="#">Про нас</a>
-            </li>
-            <li class="header-nav-list-items">
-                <a class="header-nav-list-items__link" href="#">Як замовити</a>
-            </li>
-            <li class="header-nav-list-items">
-                <a class="header-nav-list-items__link" href="#">Відгуки</a>
-            </li>
-            <li class="header-nav-list-items">
-                <a class="header-nav-list-items__link" href="#">Контакти</a>
-            </li>
-        </ul>
-    </nav>
+<div class="main">
+    <header class="header">
+        <div class="header-info">
+            <img src="./src/assets/icons/logo.svg" class="header-info__logo" alt="логотип магазина">
+            <span class="header-info__name">flowerlower</span>
+        </div>
+        <nav class="header-nav">
+            <ul class="header-nav-list">
+                <li class="header-nav-list-items">
+                    <a class="header-nav-list-items__link" href="#">Головна</a>
+                </li>
+                <li class="header-nav-list-items">
+                    <a class="header-nav-list-items__link" href="#">Каталог</a>
+                </li>
+                <li class="header-nav-list-items">
+                    <a class="header-nav-list-items__link" href="#">Про нас</a>
+                </li>
+                <li class="header-nav-list-items">
+                    <a class="header-nav-list-items__link" href="#">Як замовити</a>
+                </li>
+                <li class="header-nav-list-items">
+                    <a class="header-nav-list-items__link" href="#">Відгуки</a>
+                </li>
+                <li class="header-nav-list-items">
+                    <a class="header-nav-list-items__link" href="#">Контакти</a>
+                </li>
+            </ul>
+        </nav>
 
-</header>
+    </header>
+    <div class="banner">
+        <div class="banner-list">
+            <span class="banner-list-text">Неймовірні</span>
+            <div class="banner-list-object">
+                <h1 class="banner-list-title"> БУКЕТИ</h1>
+                <span class="banner-list-text">зі свіжих квітів</span>
+            </div>
+            <span class="banner-list__txt">З Доставкою По Києву Протягом Години</span>
+            <button class="banner-list__order">замовити квіти</button>
+        </div>
+        <div class="banner-images">
+            <img src="src/assets/icons/ellipse.svg" class="banner-images__ellipse" alt="">
+            <img src="src/assets/images/flowersBanner.svg" class="banner-images__flobanner" alt="">
+        </div>
+    </div>
+    <div class="benefit">
+        <div class="benefit-row">
+            <img src="./src/assets/icons/maskGroup.svg" class="benefit-row__icon" alt="">
+            <span class="benefit-row__text"> Щоденне оновлення свіжих <br> квітів</span>
+        </div>
+        <div class="benefit-row">
+            <img src="./src/assets/icons/mapGroup.svg" class="benefit-row__icon" alt="">
+            <span class="benefit-row__text">Безкоштовна доставка в будь <br> яку точку міста</span>
+        </div>
+        <div class="benefit-row">
+            <img src="./src/assets/icons/cityGroup.svg" class="benefit-row__icon" alt="">
+            <span class="benefit-row__text">Більше 1000 сортів квітів з <br> усього світу</span>
+        </div>
+    </div>
+</div>
+
 <script type="module" src="/src/main.js"></script>
 </body>
 </html>

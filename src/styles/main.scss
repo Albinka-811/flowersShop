@@ -1,5 +1,6 @@
 @import "variadles.scss";
 @import "/src/components/header.scss";
+@import "/src/components/banner.scss";
 
 * {
   box-sizing: border-box;
@@ -16,4 +17,9 @@ button {
 
 body {
   background-color: black;
+}
+
+.main {
+  width: 1440px;
+  margin: auto;
 }
